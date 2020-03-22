@@ -1,0 +1,12 @@
+# Create directory for generated files
+
+mkdir data
+
+# Package Simulator and create .jar files 
+
+mvn package
+
+# Rename .jar file and move .jar to data directory
+
+cd target
+mv Simulator-1.0-SNAPSHOT.jar ../data/Simulator.jar
