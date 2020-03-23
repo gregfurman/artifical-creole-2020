@@ -23,11 +23,11 @@ of a creole lexicon.
 
 In order to run the language evolution simulator enter the following lines of code into bash: 
 
-'''
+```
 bash run
 cd data
 java -jar Simulator.jar [experiment indexes to run/leave empty for all experiments]
-'''
+```
 
 The simulator takes in experiment numbers 1-48. One can either enter a list of experiment numbers i.e 1 2 3 ... or leave the experiment number blank for all 48 experiments to be run.
 
